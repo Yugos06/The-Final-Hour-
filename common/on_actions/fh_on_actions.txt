@@ -1,0 +1,27 @@
+on_actions = {
+  on_startup = {
+    effect = {
+      FRA = {
+        if = {
+          limit = { NOT = { has_idea = fh_fra_esprit_francais } }
+          add_ideas = fh_fra_esprit_francais
+        }
+        if = {
+          limit = { is_in_faction = yes }
+          leave_faction = yes
+        }
+      }
+    }
+  }
+
+  on_daily = {
+    effect = {
+      FRA = {
+        if = {
+          limit = { NOT = { has_idea = fh_fra_esprit_francais } }
+          add_ideas = fh_fra_esprit_francais
+        }
+      }
+    }
+  }
+}

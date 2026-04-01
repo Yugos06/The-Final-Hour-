@@ -1,0 +1,347 @@
+add_namespace = fh_france
+
+country_event = {
+  id = fh_france.10
+  title = fh_france.10.t
+  desc = fh_france.10.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.10.a
+    add_political_power = 25
+    add_stability = 0.01
+  }
+}
+
+country_event = {
+  id = fh_france.20
+  title = fh_france.20.t
+  desc = fh_france.20.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.20.a
+    add_war_support = 0.02
+    add_stability = -0.01
+  }
+}
+
+country_event = {
+  id = fh_france.30
+  title = fh_france.30.t
+  desc = fh_france.30.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.30.a
+    add_stability = 0.01
+    add_political_power = 15
+    add_war_support = -0.01
+  }
+}
+
+country_event = {
+  id = fh_france.40
+  title = fh_france.40.t
+  desc = fh_france.40.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.40.a
+    add_political_power = 25
+    add_stability = -0.01
+  }
+}
+
+country_event = {
+  id = fh_france.50
+  title = fh_france.50.t
+  desc = fh_france.50.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.50.a
+    add_war_support = 0.02
+    add_political_power = 15
+  }
+}
+
+country_event = {
+  id = fh_france.60
+  title = fh_france.60.t
+  desc = fh_france.60.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.60.a
+    add_stability = 0.01
+    add_war_support = 0.01
+    add_political_power = 15
+  }
+}
+
+country_event = {
+  id = fh_france.70
+  title = fh_france.70.t
+  desc = fh_france.70.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.70.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_industrial_recovery_spirit } }
+      add_ideas = fh_fra_industrial_recovery_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_industrial_recovery_spirit }
+      add_political_power = 10
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.71
+  title = fh_france.71.t
+  desc = fh_france.71.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.71.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_defense_industry_spirit } }
+      add_ideas = fh_fra_defense_industry_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_defense_industry_spirit }
+      add_war_support = 0.01
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.72
+  title = fh_france.72.t
+  desc = fh_france.72.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.72.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_future_industry_spirit } }
+      add_ideas = fh_fra_future_industry_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_future_industry_spirit }
+      add_political_power = 10
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.73
+  title = fh_france.73.t
+  desc = fh_france.73.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.73.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_export_drive_spirit } }
+      add_ideas = fh_fra_export_drive_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_export_drive_spirit }
+      add_political_power = 10
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.74
+  title = fh_france.74.t
+  desc = fh_france.74.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.74.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_republican_reform_spirit } }
+      add_ideas = fh_fra_republican_reform_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_republican_reform_spirit }
+      add_stability = 0.01
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.75
+  title = fh_france.75.t
+  desc = fh_france.75.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.75.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_national_preference_spirit } }
+      add_ideas = fh_fra_national_preference_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_national_preference_spirit }
+      add_war_support = 0.01
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.76
+  title = fh_france.76.t
+  desc = fh_france.76.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.76.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_popular_front_spirit } }
+      add_ideas = fh_fra_popular_front_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_popular_front_spirit }
+      add_stability = 0.01
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.77
+  title = fh_france.77.t
+  desc = fh_france.77.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.77.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_lfi_spirit } }
+      add_ideas = fh_fra_lfi_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_lfi_spirit }
+      add_political_power = 10
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.78
+  title = fh_france.78.t
+  desc = fh_france.78.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.78.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_rn_spirit } }
+      add_ideas = fh_fra_rn_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_rn_spirit }
+      add_war_support = 0.01
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.79
+  title = fh_france.79.t
+  desc = fh_france.79.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.79.a
+    if = {
+      limit = { NOT = { has_idea = fh_fra_france_souveraine_spirit } }
+      add_ideas = fh_fra_france_souveraine_spirit
+    }
+    if = {
+      limit = { has_idea = fh_fra_france_souveraine_spirit }
+      add_stability = 0.01
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.80
+  title = fh_france.80.t
+  desc = fh_france.80.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.80.a
+    if = {
+      limit = { NOT = { has_idea = fh_union_europeenne } }
+      add_ideas = fh_union_europeenne
+    }
+    if = {
+      limit = { has_idea = fh_union_europeenne }
+      add_political_power = 10
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.81
+  title = fh_france.81.t
+  desc = fh_france.81.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.81.a
+    if = {
+      limit = { NOT = { has_idea = fh_euro_spirit } }
+      add_ideas = fh_euro_spirit
+    }
+    if = {
+      limit = { has_idea = fh_euro_spirit }
+      add_political_power = 10
+    }
+  }
+}
+
+country_event = {
+  id = fh_france.82
+  title = fh_france.82.t
+  desc = fh_france.82.d
+  picture = GFX_report_event_generic
+  is_triggered_only = yes
+
+  option = {
+    name = fh_france.82.a
+    if = {
+      limit = { NOT = { has_idea = fh_otan_spirit } }
+      add_ideas = fh_otan_spirit
+    }
+    if = {
+      limit = { has_idea = fh_otan_spirit }
+      army_experience = 5
+    }
+  }
+}

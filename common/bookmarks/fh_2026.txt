@@ -1,0 +1,20 @@
+bookmarks = {
+  bookmark = {
+    name = "FH_2026_NAME"
+    desc = "FH_2026_DESC"
+    date = 2026.1.1.12
+    picture = "GFX_select_date_1936"
+    default_country = "FRA"
+    default = yes
+
+    FRA = {
+      history = "FH_2026_FRA_DESC"
+      ideology = democratic
+    }
+
+    GER = {
+      history = "FH_2026_GER_DESC"
+      ideology = democratic
+    }
+  }
+}

@@ -1,0 +1,324 @@
+﻿l_french:
+  fh_fra_republic_in_crisis: "Republique en crise"
+  fh_fra_republic_in_crisis_desc: "Les tensions sociales, l'energie et la politique divisent le pays."
+
+  fh_fra_national_debate: "Grand debat national"
+  fh_fra_national_debate_desc: "L'Assemblee Nationale doit trancher sur l'avenir de la Republique."
+
+  fh_fra_left_path: "Mandat de la gauche"
+  fh_fra_left_path_desc: "Une coalition sociale impose un cap progressiste."
+
+  fh_fra_left_social_pact: "Pacte social"
+  fh_fra_left_social_pact_desc: "Stabiliser le pays par des mesures sociales fortes."
+
+  fh_fra_left_energy_transition: "Transition energetique"
+  fh_fra_left_energy_transition_desc: "Accelerer la reconversion vers des sources plus stables."
+
+  fh_fra_left_internationalism: "Internationalisme"
+  fh_fra_left_internationalism_desc: "Soutenir les mouvements progressistes a l'etranger."
+
+  fh_fra_right_path: "Mandat de la droite"
+  fh_fra_right_path_desc: "L'ordre et la souverainete reviennent au premier plan."
+
+  fh_fra_right_security_state: "Etat de securite"
+  fh_fra_right_security_state_desc: "Renforcer les services interieurs et la surveillance."
+
+  fh_fra_right_industrial_push: "Relance industrielle"
+  fh_fra_right_industrial_push_desc: "Priorite a la production et a l'autonomie economique."
+
+  fh_fra_right_strategic_autonomy: "Autonomie strategique"
+  fh_fra_right_strategic_autonomy_desc: "Un effort national pour une defense credible."
+
+  fh_fra_non_aligned_path: "Mandat non aligne"
+  fh_fra_non_aligned_path_desc: "Une troisieme voie s'impose a l'Assemblee."
+
+  fh_fra_non_aligned_emergency_powers: "Pouvoirs d'urgence"
+  fh_fra_non_aligned_emergency_powers_desc: "Centraliser pour agir vite et fort."
+
+  fh_fra_non_aligned_technocrats: "Gouvernement technocrate"
+  fh_fra_non_aligned_technocrats_desc: "Placer l'expertise au coeur des decisions."
+
+  fh_fra_non_aligned_national_renewal: "Renouveau national"
+  fh_fra_non_aligned_national_renewal_desc: "Refonder l'Etat avec un mandat exceptionnel."
+
+  fh_fra_volt_europa: "Volt Europa"
+  fh_fra_volt_europa_desc: "Un projet discret pour unifier l'energie et la technologie du continent."
+
+  fh_france_assemblee: "Assemblee Nationale"
+  fh_france_assemblee_desc: "Debats, coalitions et compromis sous la Ve Republique."
+
+  fh_france_assemblee_budget_deal: "Accord budgetaire"
+  fh_france_assemblee_budget_deal_desc: "Un compromis temporaire pour debloquer la situation."
+
+  fh_france_volt_europa_initiative: "Commission Volt Europa"
+  fh_france_volt_europa_initiative_desc: "Ouvrir une commission speciale pour le projet Volt Europa."
+
+  fh_fra_esprit_francais: "Esprit francais"
+  fh_fra_esprit_francais_desc: "France, nation des poetes, des romanciers et des soldats. La culture stimule l'innovation, mais la demographie freine la mobilisation."
+
+  fh_union_europeenne: "Union europeenne"
+  fh_union_europeenne_desc: "Integration politique et marche commun, mais lourdeurs et compromis. Les garanties europeennes sont financees en commun."
+
+  fh_euro_spirit: "L'euro"
+  fh_euro_spirit_desc: "Monnaie stable et inflation contenue, mais discipline budgetaire et croissance moderee."
+
+  fh_otan_spirit: "OTAN"
+  fh_otan_spirit_desc: "Doctrine commune et interop, mobilisation acceleree et defense renforcee, au prix de contraintes budgetaires."
+
+  fh_volt_europa_spirit: "Volt Europa"
+  fh_volt_europa_spirit_desc: "Cooperation technique et reseaux d'energie continentaux."
+
+  fh_fra_darkest_hour_europe: "L'heure la plus sombre d'europe"
+  fh_fra_darkest_hour_europe_desc: "Crises, rivalites et fractures internes: la France doit choisir son cap."
+
+  fh_fra_political_realign: "Recomposition politique"
+  fh_fra_political_realign_desc: "L'Assemblee Nationale se reconfigure pour repondre a l'urgence."
+
+  fh_fra_econ_emergency: "Plan d'urgence economique"
+  fh_fra_econ_emergency_desc: "Arreter l'hemorragie et stabiliser l'Etat."
+
+  fh_fra_industrial_recovery: "Relance industrielle"
+  fh_fra_industrial_recovery_desc: "Relocaliser, produire, tenir."
+
+  fh_fra_energy_security: "Securite energetique"
+  fh_fra_energy_security_desc: "Assurer l'approvisionnement et reduire la vulnerabilite."
+
+  fh_fra_future_industry: "Industrie du futur"
+  fh_fra_future_industry_desc: "Investir dans les technologies de rupture."
+
+  fh_fra_republican_path: "Voie republicaine"
+  fh_fra_republican_path_desc: "Defendre les institutions et la stabilite."
+
+  fh_fra_left_unity: "Union de la gauche"
+  fh_fra_left_unity_desc: "Former un bloc social et populaire."
+
+  fh_fra_right_national: "Bloc national"
+  fh_fra_right_national_desc: "Ordre, identite et souverainete."
+
+  fh_fra_macron_path: "Voie Macron"
+  fh_fra_macron_path_desc: "Centrer la Republique sur l'europe et la modernisation."
+
+  fh_fra_european_union: "Union europeenne"
+  fh_fra_european_union_desc: "Approfondir l'integration politique et economique."
+
+  fh_fra_euro_strategy: "Strategie de l'euro"
+  fh_fra_euro_strategy_desc: "Stabilite monetaire contre discipline budgetaire."
+
+  fh_fra_nato_commitment: "Engagement OTAN"
+  fh_fra_nato_commitment_desc: "Renforcer la defense collective et l'interoperabilite."
+
+  fh_fra_le_pen_path: "Voie Marine Le Pen"
+  fh_fra_le_pen_path_desc: "Recentrer la Republique sur la nation."
+
+  fh_fra_national_preference: "Preference nationale"
+  fh_fra_national_preference_desc: "Priorite aux interets et aux travailleurs francais."
+
+  fh_fra_referendum_republic: "Referendum constitutionnel"
+  fh_fra_referendum_republic_desc: "Redefinir les equilibres de la Ve Republique."
+
+  fh_fra_socialist_front: "Front populaire moderne"
+  fh_fra_socialist_front_desc: "Coalition sociale et programe de justice."
+
+  fh_fra_workers_compact: "Pacte social"
+  fh_fra_workers_compact_desc: "Un compromis pour l'emploi et les salaires."
+
+  fh_fra_france_insoumise: "France insoumise"
+  fh_fra_france_insoumise_desc: "Rupture avec l'ordre economique etabli."
+
+  fh_fra_melenchon_program: "Programme Melenchon"
+  fh_fra_melenchon_program_desc: "Planification, redistribution et souverainete populaire."
+
+  fh_fra_rn_path: "Rassemblement national"
+  fh_fra_rn_path_desc: "Securite, identite, autorite."
+
+  fh_fra_bardella_leadership: "Bardella en tete"
+  fh_fra_bardella_leadership_desc: "Renouvellement du leadership national."
+
+  fh_fra_france_souveraine: "France souveraine"
+  fh_fra_france_souveraine_desc: "Independance strategique et retour a l'Etat-nation."
+
+  fh_fra_zemmour_renaissance: "Renaissance nationale"
+  fh_fra_zemmour_renaissance_desc: "Restaurer puissance, culture et cohesion."
+
+  fh_fra_infrastructure_push: "Plan d'infrastructures"
+  fh_fra_infrastructure_push_desc: "Moderniser routes, rails et reseaux pour relancer l'economie."
+
+  fh_fra_strategic_reserves: "Reserves strategiques"
+  fh_fra_strategic_reserves_desc: "Constituer des stocks pour amortir les chocs."
+
+  fh_fra_export_drive: "Offensive a l'export"
+  fh_fra_export_drive_desc: "Gagner des parts de marche, meme au prix de tensions internes."
+
+  fh_fra_defense_contracts: "Contrats de defense"
+  fh_fra_defense_contracts_desc: "Relancer la production militaire par des commandes publiques."
+
+  fh_fra_defense_rampup: "Montee en cadence"
+  fh_fra_defense_rampup_desc: "Accelerer l'outillage et la production d'armement."
+
+  fh_fra_european_leadership: "Leadership europeen"
+  fh_fra_european_leadership_desc: "Assumer un role moteur dans l'Union."
+
+  fh_fra_sovereign_borders: "Frontieres souveraines"
+  fh_fra_sovereign_borders_desc: "Reprendre le controle des flux et des normes."
+
+  fh_fra_public_services: "Services publics"
+  fh_fra_public_services_desc: "Renforcer l'education, la sante et l'emploi public."
+
+  fh_fra_constituent_assembly: "Assemblee constituante"
+  fh_fra_constituent_assembly_desc: "Refonder les institutions au nom de la souverainete populaire."
+
+  fh_fra_security_doctrine: "Doctrine de securite"
+  fh_fra_security_doctrine_desc: "Priorite a la securite interieure et a la frontiere."
+
+  fh_fra_civilizational_policy: "Politique civilisationnelle"
+  fh_fra_civilizational_policy_desc: "Restaurer cohesion, culture et autorite."
+
+  fh_fra_industrial_recovery_spirit: "Relance industrielle"
+  fh_fra_industrial_recovery_spirit_desc: "Reconstruction productive rapide, au prix d'un cout social."
+
+  fh_fra_defense_industry_spirit: "Complexe de defense"
+  fh_fra_defense_industry_spirit_desc: "Usines militaires renforcees, mais economie sous tension."
+
+  fh_fra_future_industry_spirit: "Industrie du futur"
+  fh_fra_future_industry_spirit_desc: "Innovation acceleree, mais pression sur la stabilite."
+
+  fh_fra_export_drive_spirit: "Offensive a l'export"
+  fh_fra_export_drive_spirit_desc: "Influence commerciale accrue, cohesion interne fragilisee."
+
+  fh_fra_republican_reform_spirit: "Reformes republicaines"
+  fh_fra_republican_reform_spirit_desc: "Moderniser l'Etat, avec un cout budgetaire."
+
+  fh_fra_national_preference_spirit: "Preference nationale"
+  fh_fra_national_preference_spirit_desc: "Priorite nationale, mais tensions commerciales."
+
+  fh_fra_popular_front_spirit: "Front populaire"
+  fh_fra_popular_front_spirit_desc: "Cohesion sociale renforcee, productivite sous pression."
+
+  fh_fra_lfi_spirit: "Rupture insoumise"
+  fh_fra_lfi_spirit_desc: "Decision rapide, instabilite accrue."
+
+  fh_fra_rn_spirit: "Cap securitaire"
+  fh_fra_rn_spirit_desc: "Defense renforcee, mais couts economiques."
+
+  fh_fra_france_souveraine_spirit: "France souveraine"
+  fh_fra_france_souveraine_spirit_desc: "Autonomie politique, isolement economique relatif."
+
+  fh_france.10.t: "Congres republicain"
+  fh_france.10.d: "La majorite clarifie sa ligne et affiche son cap europeen."
+  fh_france.10.a: "Stabiliser la coalition"
+
+  fh_france.20.t: "Referendum national"
+  fh_france.20.d: "Le pays est appele a trancher sur la souverainete et l'ordre."
+  fh_france.20.a: "Faire bloc"
+
+  fh_france.30.t: "Nouvel elan social"
+  fh_france.30.d: "Les services publics retrouvent un role central."
+  fh_france.30.a: "Investir dans le commun"
+
+  fh_france.40.t: "Mobilisation populaire"
+  fh_france.40.d: "Une dynamique de rupture secoue l'Etat."
+  fh_france.40.a: "Assumer la rupture"
+
+  fh_france.50.t: "Doctrine de securite"
+  fh_france.50.d: "La securite devient prioritaire dans toutes les politiques."
+  fh_france.50.a: "Serrer les rangs"
+
+  fh_france.60.t: "Renaissance nationale"
+  fh_france.60.d: "Le pouvoir cherche a restaurer une vision forte de la nation."
+  fh_france.60.a: "Unifier le pays"
+
+  fh_policy_industrial_recovery: "Paquet de relance"
+  fh_policy_industrial_recovery_desc: "Valider les mesures de relance et d'investissement industriel."
+
+  fh_policy_defense_industry: "Industrie de defense"
+  fh_policy_defense_industry_desc: "Prioriser l'effort industriel militaire."
+
+  fh_policy_future_industry: "Programme industrie du futur"
+  fh_policy_future_industry_desc: "Accorder des credits a l'innovation de rupture."
+
+  fh_policy_export_drive: "Strategie export"
+  fh_policy_export_drive_desc: "Lancer un plan de soutien aux exportations."
+
+  fh_policy_republican_reforms: "Reformes republicaines"
+  fh_policy_republican_reforms_desc: "Moderniser l'Etat et ses institutions."
+
+  fh_policy_eu_council: "Conseil europeen"
+  fh_policy_eu_council_desc: "Aligner la ligne francaise avec les partenaires."
+
+  fh_policy_euro_coordination: "Coordination de l'euro"
+  fh_policy_euro_coordination_desc: "Assurer la discipline et la stabilite monetaires."
+
+  fh_policy_nato_commitment: "Engagement OTAN"
+  fh_policy_nato_commitment_desc: "Harmoniser doctrine, entrainement et equipements."
+
+  fh_policy_national_preference: "Preference nationale"
+  fh_policy_national_preference_desc: "Institutionnaliser des priorites nationales."
+
+  fh_policy_popular_front: "Front populaire"
+  fh_policy_popular_front_desc: "Consolider la ligne sociale et syndicale."
+
+  fh_policy_lfi_program: "Programme insoumis"
+  fh_policy_lfi_program_desc: "Assumer une rupture economique et sociale."
+
+  fh_policy_rn_security: "Cap securitaire"
+  fh_policy_rn_security_desc: "Reorienter l'Etat vers l'ordre et la securite."
+
+  fh_policy_france_souveraine: "France souveraine"
+  fh_policy_france_souveraine_desc: "Affirmer l'autonomie politique et strategique."
+
+  fh_france.70.t: "Relance industrielle"
+  fh_france.70.d: "Le gouvernement enterine un plan de relance productif."
+  fh_france.70.a: "Lancer la relance"
+
+  fh_france.71.t: "Complexe de defense"
+  fh_france.71.d: "Les commandes militaires structurent l'appareil industriel."
+  fh_france.71.a: "Prioriser l'armement"
+
+  fh_france.72.t: "Industrie du futur"
+  fh_france.72.d: "L'innovation est mise au coeur de la strategie nationale."
+  fh_france.72.a: "Financer l'innovation"
+
+  fh_france.73.t: "Offensive a l'export"
+  fh_france.73.d: "Le pays se tourne vers les marches exterieurs."
+  fh_france.73.a: "Conquerir les marches"
+
+  fh_france.74.t: "Reformes republicaines"
+  fh_france.74.d: "Un paquet de modernisation est adopte."
+  fh_france.74.a: "Appliquer les reformes"
+
+  fh_france.75.t: "Preference nationale"
+  fh_france.75.d: "Le gouvernement privilegie les interets nationaux."
+  fh_france.75.a: "Assumer la ligne"
+
+  fh_france.76.t: "Front populaire"
+  fh_france.76.d: "La coalition sociale impose sa marque."
+  fh_france.76.a: "Consolider l'union"
+
+  fh_france.77.t: "Programme insoumis"
+  fh_france.77.d: "Le programme de rupture est applique."
+  fh_france.77.a: "Faire basculer le cap"
+
+  fh_france.78.t: "Cap securitaire"
+  fh_france.78.d: "La securite devient une priorite transversale."
+  fh_france.78.a: "Tenir la ligne"
+
+  fh_france.79.t: "France souveraine"
+  fh_france.79.d: "L'Etat affirme son autonomie politique."
+  fh_france.79.a: "Affirmer la souverainete"
+
+  fh_france.80.t: "Conseil europeen"
+  fh_france.80.d: "Les partenaires valident une orientation commune."
+  fh_france.80.a: "Aligner la position"
+
+  fh_france.81.t: "Coordination de l'euro"
+  fh_france.81.d: "La stabilite monetaire est reaffirmee."
+  fh_france.81.a: "Assurer la discipline"
+
+  fh_france.82.t: "Engagement OTAN"
+  fh_france.82.d: "La cooperation militaire est renforcee."
+  fh_france.82.a: "Renforcer l'interoperabilite"
+
+  FH_2026_NAME: "2026: L'Heure Finale"
+  FH_2026_DESC: "Un monde fracture par les crises et les nouvelles technologies."
+  FH_2026_FRA_DESC: "La France affronte instabilite politique et choc energetique."
+  FH_2026_GER_DESC: "L'Allemagne rebat les cartes de l'industrie et de l'IA."

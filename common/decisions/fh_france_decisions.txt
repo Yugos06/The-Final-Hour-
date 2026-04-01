@@ -1,0 +1,291 @@
+fh_france_assemblee = {
+  fh_france_assemblee_budget_deal = {
+      icon = GFX_decision_generic_political_rally
+      cost = 50
+
+      days_re_enable = 180
+
+      available = {
+        has_political_power > 50
+      }
+
+      complete_effect = {
+        add_political_power = 25
+        add_stability = 0.02
+      }
+  }
+
+    # Economic policy packages
+  fh_policy_industrial_recovery = {
+      icon = GFX_decision_generic_industry
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_industrial_recovery
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.70 }
+      }
+  }
+
+  fh_policy_defense_industry = {
+      icon = GFX_decision_generic_military
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_defense_rampup
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.71 }
+      }
+  }
+
+  fh_policy_future_industry = {
+      icon = GFX_decision_generic_research
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_future_industry
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.72 }
+      }
+  }
+
+  fh_policy_export_drive = {
+      icon = GFX_decision_generic_decision
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_export_drive
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.73 }
+      }
+  }
+
+    # Political packages
+  fh_policy_republican_reforms = {
+      icon = GFX_decision_generic_political_discourse
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_macron_path
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.74 }
+      }
+  }
+
+  fh_policy_eu_council = {
+      icon = GFX_decision_generic_decision
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_european_union
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.80 }
+      }
+  }
+
+  fh_policy_euro_coordination = {
+      icon = GFX_decision_generic_industry
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_euro_strategy
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.81 }
+      }
+  }
+
+  fh_policy_nato_commitment = {
+      icon = GFX_decision_generic_military
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_nato_commitment
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.82 }
+      }
+  }
+
+  fh_policy_national_preference = {
+      icon = GFX_decision_generic_nationalism
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_national_preference
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.75 }
+      }
+  }
+
+  fh_policy_popular_front = {
+      icon = GFX_decision_generic_political_rally
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_workers_compact
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.76 }
+      }
+  }
+
+  fh_policy_lfi_program = {
+      icon = GFX_decision_generic_political_discourse
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_melenchon_program
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.77 }
+      }
+  }
+
+  fh_policy_rn_security = {
+      icon = GFX_decision_generic_police_action
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_bardella_leadership
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.78 }
+      }
+  }
+
+  fh_policy_france_souveraine = {
+      icon = GFX_decision_generic_nationalism
+      cost = 35
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_zemmour_renaissance
+      }
+
+      available = {
+        has_political_power > 35
+      }
+
+      complete_effect = {
+        country_event = { id = fh_france.79 }
+      }
+  }
+
+  fh_france_volt_europa_initiative = {
+      icon = GFX_decision_generic_research
+      cost = 75
+
+      days_re_enable = 180
+
+      visible = {
+        has_completed_focus = fh_fra_political_realign
+      }
+
+      available = {
+        has_completed_focus = fh_fra_political_realign
+        NOT = { has_country_flag = fh_volt_europa_unlocked }
+      }
+
+      complete_effect = {
+        set_country_flag = fh_volt_europa_unlocked
+        add_political_power = 25
+      }
+
+      ai_will_do = {
+        factor = 0
+      }
+  }
+}

@@ -1,0 +1,582 @@
+focus_tree = {
+  id = fh_france_focus
+  country = {
+    factor = 0
+    modifier = {
+      add = 10
+      tag = FRA
+    }
+  }
+  default = no
+  reset_on_civilwar = yes
+
+  # Trunk
+  focus = {
+    id = fh_fra_darkest_hour_europe
+    icon = GFX_goal_generic_dangerous_deal
+    x = 4
+    y = -1
+    cost = 10
+
+    completion_reward = {
+      add_stability = -0.05
+      add_war_support = -0.02
+    }
+  }
+
+  focus = {
+    id = fh_fra_political_realign
+    icon = GFX_goal_generic_national_unity
+    prerequisite = { focus = fh_fra_darkest_hour_europe }
+    x = 4
+    y = 0
+    cost = 10
+
+    completion_reward = {
+      add_political_power = 25
+    }
+  }
+
+  # Economy branch (far left)
+  focus = {
+    id = fh_fra_econ_emergency
+    icon = GFX_goal_generic_construct_civilian
+    prerequisite = { focus = fh_fra_darkest_hour_europe }
+    x = -2
+    y = 0
+    cost = 10
+
+    completion_reward = {
+      add_political_power = 25
+      add_stability = -0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_industrial_recovery
+    icon = GFX_goal_generic_production
+    prerequisite = { focus = fh_fra_econ_emergency }
+    x = -2
+    y = 1
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_industrial_recovery_spirit
+      add_political_power = 15
+    }
+  }
+
+  focus = {
+    id = fh_fra_infrastructure_push
+    icon = GFX_goal_generic_construct_civilian
+    prerequisite = { focus = fh_fra_industrial_recovery }
+    x = -2
+    y = 2
+    cost = 5
+
+    completion_reward = {
+      capital_scope = {
+        add_building_construction = {
+          type = infrastructure
+          level = 1
+          instant_build = yes
+        }
+      }
+      add_stability = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_energy_security
+    icon = GFX_goal_generic_construct_civilian
+    prerequisite = { focus = fh_fra_infrastructure_push }
+    x = -2
+    y = 3
+    cost = 5
+
+    completion_reward = {
+      capital_scope = {
+        add_building_construction = {
+          type = synthetic_refinery
+          level = 1
+          instant_build = yes
+        }
+      }
+      add_political_power = 15
+    }
+  }
+
+  focus = {
+    id = fh_fra_strategic_reserves
+    icon = GFX_goal_generic_oil_refinery
+    prerequisite = { focus = fh_fra_energy_security }
+    x = -2
+    y = 4
+    cost = 5
+
+    completion_reward = {
+      add_political_power = 25
+      add_stability = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_future_industry
+    icon = GFX_goal_generic_scientific_exchange
+    prerequisite = { focus = fh_fra_strategic_reserves }
+    x = -2
+    y = 5
+    cost = 10
+
+    completion_reward = {
+      add_research_slot = 1
+      add_ideas = fh_fra_future_industry_spirit
+    }
+  }
+
+  focus = {
+    id = fh_fra_export_drive
+    icon = GFX_goal_generic_trade
+    prerequisite = { focus = fh_fra_future_industry }
+    x = -2
+    y = 6
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_export_drive_spirit
+      add_political_power = 15
+    }
+  }
+
+  # Economy side branch (defense contracts)
+  focus = {
+    id = fh_fra_defense_contracts
+    icon = GFX_goal_generic_army_tanks
+    prerequisite = { focus = fh_fra_industrial_recovery }
+    x = -1
+    y = 2
+    cost = 5
+
+    completion_reward = {
+      capital_scope = {
+        add_building_construction = {
+          type = arms_factory
+          level = 1
+          instant_build = yes
+        }
+      }
+      add_war_support = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_defense_rampup
+    icon = GFX_goal_generic_production
+    prerequisite = { focus = fh_fra_defense_contracts }
+    x = -1
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      capital_scope = {
+        add_building_construction = {
+          type = arms_factory
+          level = 1
+          instant_build = yes
+        }
+      }
+      add_ideas = fh_fra_defense_industry_spirit
+    }
+  }
+
+  # Political branches (center)
+  focus = {
+    id = fh_fra_republican_path
+    icon = GFX_goal_generic_political_pressure
+    prerequisite = { focus = fh_fra_political_realign }
+    mutually_exclusive = {
+      focus = fh_fra_left_unity
+      focus = fh_fra_right_national
+    }
+    x = 4
+    y = 1
+    cost = 10
+
+    completion_reward = {
+      add_stability = 0.01
+      add_political_power = 25
+    }
+  }
+
+  focus = {
+    id = fh_fra_left_unity
+    icon = GFX_goal_generic_propaganda
+    prerequisite = { focus = fh_fra_political_realign }
+    mutually_exclusive = {
+      focus = fh_fra_republican_path
+      focus = fh_fra_right_national
+    }
+    x = 2
+    y = 1
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = communism popularity = 0.03 }
+      add_stability = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_right_national
+    icon = GFX_goal_generic_demand_territory
+    prerequisite = { focus = fh_fra_political_realign }
+    mutually_exclusive = {
+      focus = fh_fra_republican_path
+      focus = fh_fra_left_unity
+    }
+    x = 7
+    y = 1
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = fascism popularity = 0.03 }
+      add_war_support = 0.01
+    }
+  }
+
+  # Republican path (Macron / Marine Le Pen)
+  focus = {
+    id = fh_fra_macron_path
+    icon = GFX_goal_generic_improve_relations
+    prerequisite = { focus = fh_fra_republican_path }
+    mutually_exclusive = { focus = fh_fra_le_pen_path }
+    x = 4
+    y = 2
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = democratic popularity = 0.03 }
+      add_ideas = fh_fra_republican_reform_spirit
+      add_political_power = 15
+    }
+  }
+
+  focus = {
+    id = fh_fra_european_union
+    icon = GFX_goal_generic_alliance
+    prerequisite = { focus = fh_fra_macron_path }
+    x = 4
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_union_europeenne
+      add_stability = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_euro_strategy
+    icon = GFX_goal_generic_trade
+    prerequisite = { focus = fh_fra_european_union }
+    x = 4
+    y = 4
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_euro_spirit
+      add_political_power = 25
+    }
+  }
+
+  focus = {
+    id = fh_fra_nato_commitment
+    icon = GFX_goal_generic_allies_build_infantry
+    prerequisite = { focus = fh_fra_euro_strategy }
+    x = 4
+    y = 5
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_otan_spirit
+      add_war_support = 0.03
+    }
+  }
+
+  focus = {
+    id = fh_fra_european_leadership
+    icon = GFX_goal_generic_alliance
+    prerequisite = { focus = fh_fra_nato_commitment }
+    x = 4
+    y = 6
+    cost = 10
+
+    completion_reward = {
+      add_political_power = 35
+      add_stability = 0.01
+      country_event = { id = fh_france.10 }
+    }
+  }
+
+  focus = {
+    id = fh_fra_le_pen_path
+    icon = GFX_goal_generic_national_unity
+    prerequisite = { focus = fh_fra_republican_path }
+    mutually_exclusive = { focus = fh_fra_macron_path }
+    x = 5
+    y = 2
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = fascism popularity = 0.03 }
+      add_war_support = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_national_preference
+    icon = GFX_goal_generic_major_war
+    prerequisite = { focus = fh_fra_le_pen_path }
+    x = 5
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_national_preference_spirit
+      add_political_power = 25
+    }
+  }
+
+  focus = {
+    id = fh_fra_referendum_republic
+    icon = GFX_goal_generic_political_pressure
+    prerequisite = { focus = fh_fra_national_preference }
+    x = 5
+    y = 4
+    cost = 10
+
+    completion_reward = {
+      add_war_support = 0.03
+      add_stability = -0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_sovereign_borders
+    icon = GFX_goal_generic_demand_territory
+    prerequisite = { focus = fh_fra_referendum_republic }
+    x = 5
+    y = 5
+    cost = 10
+
+    completion_reward = {
+      add_stability = 0.01
+      add_political_power = 15
+      country_event = { id = fh_france.20 }
+    }
+  }
+
+  # Left path (socialist / LFI)
+  focus = {
+    id = fh_fra_socialist_front
+    icon = GFX_goal_generic_propaganda
+    prerequisite = { focus = fh_fra_left_unity }
+    mutually_exclusive = { focus = fh_fra_france_insoumise }
+    x = 1
+    y = 2
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = communism popularity = 0.03 }
+      add_stability = 0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_workers_compact
+    icon = GFX_goal_generic_consumer_goods
+    prerequisite = { focus = fh_fra_socialist_front }
+    x = 1
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_popular_front_spirit
+      add_political_power = 25
+      add_war_support = -0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_public_services
+    icon = GFX_goal_generic_construct_civilian
+    prerequisite = { focus = fh_fra_workers_compact }
+    x = 1
+    y = 4
+    cost = 5
+
+    completion_reward = {
+      add_stability = 0.01
+      add_political_power = 15
+      country_event = { id = fh_france.30 }
+    }
+  }
+
+  focus = {
+    id = fh_fra_france_insoumise
+    icon = GFX_goal_generic_demand_territory
+    prerequisite = { focus = fh_fra_left_unity }
+    mutually_exclusive = { focus = fh_fra_socialist_front }
+    x = 3
+    y = 2
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = communism popularity = 0.04 }
+      add_stability = -0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_melenchon_program
+    icon = GFX_goal_generic_political_pressure
+    prerequisite = { focus = fh_fra_france_insoumise }
+    x = 3
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_lfi_spirit
+      add_political_power = 35
+      add_war_support = -0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_constituent_assembly
+    icon = GFX_goal_generic_political_pressure
+    prerequisite = { focus = fh_fra_melenchon_program }
+    x = 3
+    y = 4
+    cost = 5
+
+    completion_reward = {
+      add_political_power = 25
+      add_stability = -0.01
+      country_event = { id = fh_france.40 }
+    }
+  }
+
+  # Right path (RN / France Souveraine)
+  focus = {
+    id = fh_fra_rn_path
+    icon = GFX_goal_generic_national_unity
+    prerequisite = { focus = fh_fra_le_pen_path }
+    x = 6
+    y = 2
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = fascism popularity = 0.04 }
+      add_war_support = 0.02
+    }
+  }
+
+  focus = {
+    id = fh_fra_bardella_leadership
+    icon = GFX_goal_generic_national_unity
+    prerequisite = { focus = fh_fra_rn_path }
+    x = 6
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_rn_spirit
+      add_stability = 0.01
+      add_political_power = 25
+    }
+  }
+
+  focus = {
+    id = fh_fra_security_doctrine
+    icon = GFX_goal_generic_intelligence_exchange
+    prerequisite = { focus = fh_fra_bardella_leadership }
+    x = 6
+    y = 4
+    cost = 5
+
+    completion_reward = {
+      add_war_support = 0.02
+      add_political_power = 15
+      country_event = { id = fh_france.50 }
+    }
+  }
+
+  focus = {
+    id = fh_fra_france_souveraine
+    icon = GFX_goal_generic_demand_territory
+    prerequisite = { focus = fh_fra_right_national }
+    mutually_exclusive = { focus = fh_fra_rn_path }
+    x = 7
+    y = 2
+    cost = 10
+
+    completion_reward = {
+      add_popularity = { ideology = fascism popularity = 0.04 }
+      add_political_power = 25
+    }
+  }
+
+  focus = {
+    id = fh_fra_zemmour_renaissance
+    icon = GFX_goal_generic_major_war
+    prerequisite = { focus = fh_fra_france_souveraine }
+    x = 7
+    y = 3
+    cost = 10
+
+    completion_reward = {
+      add_ideas = fh_fra_france_souveraine_spirit
+      add_war_support = 0.03
+      add_stability = -0.01
+    }
+  }
+
+  focus = {
+    id = fh_fra_civilizational_policy
+    icon = GFX_goal_generic_national_unity
+    prerequisite = { focus = fh_fra_zemmour_renaissance }
+    x = 7
+    y = 4
+    cost = 5
+
+    completion_reward = {
+      add_stability = 0.01
+      add_political_power = 15
+      country_event = { id = fh_france.60 }
+    }
+  }
+
+  # Secret focus unlocked only via Assemblee Nationale decisions
+  focus = {
+    id = fh_fra_volt_europa
+    icon = GFX_goal_generic_scientific_exchange
+    prerequisite = { focus = fh_fra_european_leadership }
+    x = 4
+    y = 7
+    cost = 10
+
+    available = {
+      has_country_flag = fh_volt_europa_unlocked
+    }
+
+    ai_will_do = {
+      factor = 0
+    }
+
+    completion_reward = {
+      add_ideas = fh_volt_europa_spirit
+      add_stability = 0.03
+    }
+  }
+}
