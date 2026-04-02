@@ -1,16 +1,28 @@
 add_namespace = fh_france
 
+# Political milestone events (triggered by focus completion)
+# Each offers two options with meaningful trade-offs
+
 country_event = {
   id = fh_france.10
   title = fh_france.10.t
   desc = fh_france.10.d
-  picture = GFX_report_event_generic
+  picture = GFX_report_event_political_rally
   is_triggered_only = yes
 
+  # Congrès républicain (Macron path)
   option = {
     name = fh_france.10.a
-    add_political_power = 25
-    add_stability = 0.01
+    # Stabiliser la coalition — safe, steady
+    add_political_power = 40
+    add_stability = 0.03
+  }
+  option = {
+    name = fh_france.10.b
+    # Forcer le passage — bold, risky
+    add_political_power = 75
+    add_stability = -0.02
+    add_war_support = 0.02
   }
 }
 
@@ -18,13 +30,22 @@ country_event = {
   id = fh_france.20
   title = fh_france.20.t
   desc = fh_france.20.d
-  picture = GFX_report_event_generic
+  picture = GFX_report_event_political_rally
   is_triggered_only = yes
 
+  # Référendum national (Le Pen path)
   option = {
     name = fh_france.20.a
-    add_war_support = 0.02
-    add_stability = -0.01
+    # Faire bloc — nationalist cohesion
+    add_war_support = 0.04
+    add_stability = -0.02
+    add_political_power = 25
+  }
+  option = {
+    name = fh_france.20.b
+    # Appeler à la réconciliation — moderate approach
+    add_stability = 0.03
+    add_political_power = 40
   }
 }
 
@@ -32,14 +53,29 @@ country_event = {
   id = fh_france.30
   title = fh_france.30.t
   desc = fh_france.30.d
-  picture = GFX_report_event_generic
+  picture = GFX_report_event_political_rally
   is_triggered_only = yes
 
+  # Nouvel élan social (Socialist path)
   option = {
     name = fh_france.30.a
-    add_stability = 0.01
-    add_political_power = 15
-    add_war_support = -0.01
+    # Investir dans le commun — social spending
+    add_stability = 0.03
+    add_political_power = 25
+    add_war_support = -0.02
+  }
+  option = {
+    name = fh_france.30.b
+    # Nationaliser les secteurs clés — radical move
+    add_political_power = -25
+    add_stability = -0.01
+    random_owned_controlled_state = {
+      add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+      }
+    }
   }
 }
 
@@ -47,13 +83,22 @@ country_event = {
   id = fh_france.40
   title = fh_france.40.t
   desc = fh_france.40.d
-  picture = GFX_report_event_generic
+  picture = GFX_report_event_political_rally
   is_triggered_only = yes
 
+  # Mobilisation populaire (LFI path)
   option = {
     name = fh_france.40.a
+    # Assumer la rupture — radical change
+    add_political_power = 50
+    add_stability = -0.03
+    add_popularity = { ideology = communism popularity = 0.03 }
+  }
+  option = {
+    name = fh_france.40.b
+    # Tempérer le mouvement — pragmatic compromise
+    add_stability = 0.02
     add_political_power = 25
-    add_stability = -0.01
   }
 }
 
@@ -61,13 +106,22 @@ country_event = {
   id = fh_france.50
   title = fh_france.50.t
   desc = fh_france.50.d
-  picture = GFX_report_event_generic
+  picture = GFX_report_event_political_rally
   is_triggered_only = yes
 
+  # Doctrine de sécurité (RN path)
   option = {
     name = fh_france.50.a
+    # Serrer les rangs — full security state
+    add_war_support = 0.04
+    add_political_power = 25
+    add_stability = -0.01
+  }
+  option = {
+    name = fh_france.50.b
+    # Équilibrer libertés et sécurité — balanced
+    add_stability = 0.03
     add_war_support = 0.02
-    add_political_power = 15
   }
 }
 
@@ -75,16 +129,29 @@ country_event = {
   id = fh_france.60
   title = fh_france.60.t
   desc = fh_france.60.d
-  picture = GFX_report_event_generic
+  picture = GFX_report_event_political_rally
   is_triggered_only = yes
 
+  # Renaissance nationale (Zemmour path)
   option = {
     name = fh_france.60.a
-    add_stability = 0.01
-    add_war_support = 0.01
-    add_political_power = 15
+    # Unifier le pays — civilizational project
+    add_stability = 0.02
+    add_war_support = 0.03
+    add_political_power = 30
+  }
+  option = {
+    name = fh_france.60.b
+    # Imposer la ligne — authoritarian turn
+    add_war_support = 0.05
+    add_stability = -0.03
+    add_political_power = 50
+    add_popularity = { ideology = fascism popularity = 0.03 }
   }
 }
+
+# Assemblée Nationale policy events (triggered by decisions)
+# These conditionally add or reinforce national spirits
 
 country_event = {
   id = fh_france.70
@@ -101,7 +168,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_industrial_recovery_spirit }
-      add_political_power = 10
+      add_political_power = 15
+      add_stability = 0.01
     }
   }
 }
@@ -121,7 +189,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_defense_industry_spirit }
-      add_war_support = 0.01
+      add_war_support = 0.02
+      army_experience = 5
     }
   }
 }
@@ -141,7 +210,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_future_industry_spirit }
-      add_political_power = 10
+      add_political_power = 15
+      add_research_slot = 1
     }
   }
 }
@@ -161,7 +231,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_export_drive_spirit }
-      add_political_power = 10
+      add_political_power = 15
+      add_stability = 0.01
     }
   }
 }
@@ -181,7 +252,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_republican_reform_spirit }
-      add_stability = 0.01
+      add_stability = 0.02
+      add_political_power = 15
     }
   }
 }
@@ -201,7 +273,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_national_preference_spirit }
-      add_war_support = 0.01
+      add_war_support = 0.02
+      add_stability = 0.01
     }
   }
 }
@@ -221,7 +294,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_popular_front_spirit }
-      add_stability = 0.01
+      add_stability = 0.02
+      add_political_power = 15
     }
   }
 }
@@ -241,7 +315,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_lfi_spirit }
-      add_political_power = 10
+      add_political_power = 15
+      add_stability = -0.01
     }
   }
 }
@@ -261,7 +336,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_rn_spirit }
-      add_war_support = 0.01
+      add_war_support = 0.02
+      army_experience = 5
     }
   }
 }
@@ -281,7 +357,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_fra_france_souveraine_spirit }
-      add_stability = 0.01
+      add_stability = 0.02
+      add_war_support = 0.01
     }
   }
 }
@@ -301,7 +378,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_union_europeenne }
-      add_political_power = 10
+      add_political_power = 15
+      add_stability = 0.01
     }
   }
 }
@@ -321,7 +399,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_euro_spirit }
-      add_political_power = 10
+      add_political_power = 15
+      add_stability = 0.01
     }
   }
 }
@@ -341,7 +420,8 @@ country_event = {
     }
     if = {
       limit = { has_idea = fh_otan_spirit }
-      army_experience = 5
+      army_experience = 10
+      add_war_support = 0.01
     }
   }
 }

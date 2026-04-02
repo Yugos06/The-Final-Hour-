@@ -8,7 +8,7 @@ The world stands on the brink. Nations crumble under political instability, glob
 
 In this world, democracies teeter, old alliances shatter, and new powers emerge from the chaos. Will you survive the final hour, or will history rewrite itself in fire and uncertainty?
 
-Scenario Highlights 
+Scenario Highlights
 * Conflict in Ukraine: Escalating tensions spark regional warfare with international implications.
 * War in Iran: A fragile Middle East descends into armed conflict.
 * Global Energy Crisis: Oil shortages and volatile markets destabilize economies worldwide.

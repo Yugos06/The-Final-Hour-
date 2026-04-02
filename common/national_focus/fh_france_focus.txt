@@ -14,13 +14,15 @@ focus_tree = {
   focus = {
     id = fh_fra_darkest_hour_europe
     icon = GFX_goal_generic_dangerous_deal
-    x = 4
+    x = 7
     y = -1
     cost = 10
 
     completion_reward = {
       add_stability = -0.05
-      add_war_support = -0.02
+      add_war_support = -0.03
+      add_political_power = 25
+      add_threat = 5
     }
   }
 
@@ -28,12 +30,13 @@ focus_tree = {
     id = fh_fra_political_realign
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = fh_fra_darkest_hour_europe }
-    x = 4
+    x = 7
     y = 0
     cost = 10
 
     completion_reward = {
-      add_political_power = 25
+      add_political_power = 50
+      add_stability = 0.02
     }
   }
 
@@ -48,7 +51,14 @@ focus_tree = {
 
     completion_reward = {
       add_political_power = 25
-      add_stability = -0.01
+      add_stability = 0.02
+      random_owned_controlled_state = {
+        add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }
+      }
     }
   }
 
@@ -76,6 +86,13 @@ focus_tree = {
 
     completion_reward = {
       capital_scope = {
+        add_building_construction = {
+          type = infrastructure
+          level = 2
+          instant_build = yes
+        }
+      }
+      random_owned_controlled_state = {
         add_building_construction = {
           type = infrastructure
           level = 1
@@ -116,7 +133,12 @@ focus_tree = {
 
     completion_reward = {
       add_political_power = 25
-      add_stability = 0.01
+      add_stability = 0.02
+      add_resource = {
+        type = steel
+        amount = 8
+        state = 16
+      }
     }
   }
 
@@ -198,13 +220,14 @@ focus_tree = {
       focus = fh_fra_left_unity
       focus = fh_fra_right_national
     }
-    x = 4
+    x = 7
     y = 1
     cost = 10
 
     completion_reward = {
-      add_stability = 0.01
-      add_political_power = 25
+      add_stability = 0.03
+      add_political_power = 50
+      add_popularity = { ideology = democratic popularity = 0.05 }
     }
   }
 
@@ -216,13 +239,14 @@ focus_tree = {
       focus = fh_fra_republican_path
       focus = fh_fra_right_national
     }
-    x = 2
+    x = 3
     y = 1
     cost = 10
 
     completion_reward = {
-      add_popularity = { ideology = communism popularity = 0.03 }
-      add_stability = 0.01
+      add_popularity = { ideology = communism popularity = 0.05 }
+      add_stability = 0.02
+      add_political_power = 40
     }
   }
 
@@ -234,13 +258,14 @@ focus_tree = {
       focus = fh_fra_republican_path
       focus = fh_fra_left_unity
     }
-    x = 7
+    x = 11
     y = 1
     cost = 10
 
     completion_reward = {
-      add_popularity = { ideology = fascism popularity = 0.03 }
-      add_war_support = 0.01
+      add_popularity = { ideology = fascism popularity = 0.05 }
+      add_war_support = 0.03
+      add_political_power = 40
     }
   }
 
@@ -250,7 +275,7 @@ focus_tree = {
     icon = GFX_goal_generic_improve_relations
     prerequisite = { focus = fh_fra_republican_path }
     mutually_exclusive = { focus = fh_fra_le_pen_path }
-    x = 4
+    x = 6
     y = 2
     cost = 10
 
@@ -265,7 +290,7 @@ focus_tree = {
     id = fh_fra_european_union
     icon = GFX_goal_generic_alliance
     prerequisite = { focus = fh_fra_macron_path }
-    x = 4
+    x = 6
     y = 3
     cost = 10
 
@@ -279,7 +304,7 @@ focus_tree = {
     id = fh_fra_euro_strategy
     icon = GFX_goal_generic_trade
     prerequisite = { focus = fh_fra_european_union }
-    x = 4
+    x = 6
     y = 4
     cost = 10
 
@@ -293,7 +318,7 @@ focus_tree = {
     id = fh_fra_nato_commitment
     icon = GFX_goal_generic_allies_build_infantry
     prerequisite = { focus = fh_fra_euro_strategy }
-    x = 4
+    x = 6
     y = 5
     cost = 10
 
@@ -307,13 +332,14 @@ focus_tree = {
     id = fh_fra_european_leadership
     icon = GFX_goal_generic_alliance
     prerequisite = { focus = fh_fra_nato_commitment }
-    x = 4
+    x = 6
     y = 6
     cost = 10
 
     completion_reward = {
-      add_political_power = 35
-      add_stability = 0.01
+      add_political_power = 50
+      add_stability = 0.03
+      add_war_support = 0.02
       country_event = { id = fh_france.10 }
     }
   }
@@ -323,7 +349,7 @@ focus_tree = {
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = fh_fra_republican_path }
     mutually_exclusive = { focus = fh_fra_macron_path }
-    x = 5
+    x = 8
     y = 2
     cost = 10
 
@@ -337,7 +363,7 @@ focus_tree = {
     id = fh_fra_national_preference
     icon = GFX_goal_generic_major_war
     prerequisite = { focus = fh_fra_le_pen_path }
-    x = 5
+    x = 8
     y = 3
     cost = 10
 
@@ -351,13 +377,14 @@ focus_tree = {
     id = fh_fra_referendum_republic
     icon = GFX_goal_generic_political_pressure
     prerequisite = { focus = fh_fra_national_preference }
-    x = 5
+    x = 8
     y = 4
     cost = 10
 
     completion_reward = {
-      add_war_support = 0.03
-      add_stability = -0.01
+      add_war_support = 0.04
+      add_stability = -0.02
+      add_political_power = 25
     }
   }
 
@@ -365,13 +392,14 @@ focus_tree = {
     id = fh_fra_sovereign_borders
     icon = GFX_goal_generic_demand_territory
     prerequisite = { focus = fh_fra_referendum_republic }
-    x = 5
+    x = 8
     y = 5
     cost = 10
 
     completion_reward = {
-      add_stability = 0.01
-      add_political_power = 15
+      add_stability = 0.02
+      add_political_power = 30
+      add_war_support = 0.02
       country_event = { id = fh_france.20 }
     }
   }
@@ -382,7 +410,7 @@ focus_tree = {
     icon = GFX_goal_generic_propaganda
     prerequisite = { focus = fh_fra_left_unity }
     mutually_exclusive = { focus = fh_fra_france_insoumise }
-    x = 1
+    x = 2
     y = 2
     cost = 10
 
@@ -396,7 +424,7 @@ focus_tree = {
     id = fh_fra_workers_compact
     icon = GFX_goal_generic_consumer_goods
     prerequisite = { focus = fh_fra_socialist_front }
-    x = 1
+    x = 2
     y = 3
     cost = 10
 
@@ -411,13 +439,13 @@ focus_tree = {
     id = fh_fra_public_services
     icon = GFX_goal_generic_construct_civilian
     prerequisite = { focus = fh_fra_workers_compact }
-    x = 1
+    x = 2
     y = 4
     cost = 5
 
     completion_reward = {
-      add_stability = 0.01
-      add_political_power = 15
+      add_stability = 0.03
+      add_political_power = 25
       country_event = { id = fh_france.30 }
     }
   }
@@ -427,7 +455,7 @@ focus_tree = {
     icon = GFX_goal_generic_demand_territory
     prerequisite = { focus = fh_fra_left_unity }
     mutually_exclusive = { focus = fh_fra_socialist_front }
-    x = 3
+    x = 4
     y = 2
     cost = 10
 
@@ -441,7 +469,7 @@ focus_tree = {
     id = fh_fra_melenchon_program
     icon = GFX_goal_generic_political_pressure
     prerequisite = { focus = fh_fra_france_insoumise }
-    x = 3
+    x = 4
     y = 3
     cost = 10
 
@@ -456,13 +484,14 @@ focus_tree = {
     id = fh_fra_constituent_assembly
     icon = GFX_goal_generic_political_pressure
     prerequisite = { focus = fh_fra_melenchon_program }
-    x = 3
+    x = 4
     y = 4
     cost = 5
 
     completion_reward = {
-      add_political_power = 25
-      add_stability = -0.01
+      add_political_power = 40
+      add_stability = -0.02
+      add_popularity = { ideology = communism popularity = 0.03 }
       country_event = { id = fh_france.40 }
     }
   }
@@ -472,7 +501,7 @@ focus_tree = {
     id = fh_fra_rn_path
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = fh_fra_le_pen_path }
-    x = 6
+    x = 10
     y = 2
     cost = 10
 
@@ -486,7 +515,7 @@ focus_tree = {
     id = fh_fra_bardella_leadership
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = fh_fra_rn_path }
-    x = 6
+    x = 10
     y = 3
     cost = 10
 
@@ -501,13 +530,14 @@ focus_tree = {
     id = fh_fra_security_doctrine
     icon = GFX_goal_generic_intelligence_exchange
     prerequisite = { focus = fh_fra_bardella_leadership }
-    x = 6
+    x = 10
     y = 4
     cost = 5
 
     completion_reward = {
-      add_war_support = 0.02
-      add_political_power = 15
+      add_war_support = 0.03
+      add_political_power = 25
+      army_experience = 10
       country_event = { id = fh_france.50 }
     }
   }
@@ -517,7 +547,7 @@ focus_tree = {
     icon = GFX_goal_generic_demand_territory
     prerequisite = { focus = fh_fra_right_national }
     mutually_exclusive = { focus = fh_fra_rn_path }
-    x = 7
+    x = 12
     y = 2
     cost = 10
 
@@ -531,7 +561,7 @@ focus_tree = {
     id = fh_fra_zemmour_renaissance
     icon = GFX_goal_generic_major_war
     prerequisite = { focus = fh_fra_france_souveraine }
-    x = 7
+    x = 12
     y = 3
     cost = 10
 
@@ -546,13 +576,14 @@ focus_tree = {
     id = fh_fra_civilizational_policy
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = fh_fra_zemmour_renaissance }
-    x = 7
+    x = 12
     y = 4
     cost = 5
 
     completion_reward = {
-      add_stability = 0.01
-      add_political_power = 15
+      add_stability = 0.02
+      add_political_power = 30
+      add_war_support = 0.02
       country_event = { id = fh_france.60 }
     }
   }
@@ -562,7 +593,7 @@ focus_tree = {
     id = fh_fra_volt_europa
     icon = GFX_goal_generic_scientific_exchange
     prerequisite = { focus = fh_fra_european_leadership }
-    x = 4
+    x = 6
     y = 7
     cost = 10
 
@@ -576,7 +607,9 @@ focus_tree = {
 
     completion_reward = {
       add_ideas = fh_volt_europa_spirit
-      add_stability = 0.03
+      add_stability = 0.05
+      add_political_power = 50
+      add_research_slot = 1
     }
   }
 }
