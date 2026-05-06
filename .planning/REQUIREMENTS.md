@@ -84,8 +84,40 @@
 
 ## Traceability
 
-*(Rempli par le roadmapper)*
-
-| REQ-ID | Phase | Plan |
-|--------|-------|------|
-| ... | ... | ... |
+| REQ-ID | Phase | Status |
+|--------|-------|--------|
+| FOUND-01 | Phase 1 — Foundation | Pending |
+| FOUND-02 | Phase 1 — Foundation | Pending |
+| FOUND-03 | Phase 1 — Foundation | Pending |
+| GFX-01 | Phase 1 — Foundation | Pending |
+| GFX-02 | Phase 1 — Foundation | Pending |
+| GFX-03 | Phase 1 — Foundation | Pending |
+| GFX-04 | Phase 1 — Foundation | Pending |
+| IDEA-01 | Phase 2 — Ideas & Esprits Nationaux | Pending |
+| IDEA-02 | Phase 2 — Ideas & Esprits Nationaux | Pending |
+| IDEA-03 | Phase 2 — Ideas & Esprits Nationaux | Pending |
+| IDEA-04 | Phase 2 — Ideas & Esprits Nationaux | Pending |
+| PARL-01 | Phase 2 — Ideas & Esprits Nationaux | Pending |
+| EVENT-01 | Phase 3 — Events & on_actions | Pending |
+| EVENT-02 | Phase 3 — Events & on_actions | Pending |
+| EVENT-03 | Phase 3 — Events & on_actions | Pending |
+| QA-01 | Phase 3 — Events & on_actions | Pending |
+| PARL-02 | Phase 4 — Parliament & Decisions | Pending |
+| PARL-03 | Phase 4 — Parliament & Decisions | Pending |
+| FOCUS-01 | Phase 5 — Focus Tree | Pending |
+| FOCUS-02 | Phase 5 — Focus Tree | Pending |
+| FOCUS-03 | Phase 5 — Focus Tree | Pending |
+| FOCUS-04 | Phase 5 — Focus Tree | Pending |
+| FOCUS-05 | Phase 5 — Focus Tree | Pending |
+| FOCUS-06 | Phase 5 — Focus Tree | Pending |
+| FOCUS-07 | Phase 5 — Focus Tree | Pending |
+| FOCUS-08 | Phase 5 — Focus Tree | Pending |
+| FOCUS-09 | Phase 5 — Focus Tree | Pending |
+| FOCUS-10 | Phase 5 — Focus Tree | Pending |
+| LOC-01 | Phase 6 — Localisation & QA | Pending |
+| LOC-02 | Phase 6 — Localisation & QA | Pending |
+| LOC-03 | Phase 6 — Localisation & QA | Pending |
+| QA-02 | Phase 6 — Localisation & QA | Pending |
+| QA-03 | Phase 6 — Localisation & QA | Pending |
+| QA-04 | Phase 6 — Localisation & QA | Pending |
+| QA-05 | Phase 6 — Localisation & QA | Pending |
