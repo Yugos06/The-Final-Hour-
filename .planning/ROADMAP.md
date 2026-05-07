@@ -101,7 +101,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete | 2026-05-07 |
-| 2. Ideas & Esprits Nationaux | 0/2 | Not started | - |
+| 2. Ideas & Esprits Nationaux | 0/2 | Ready to execute | - |
 | 3. Events & on_actions | 0/TBD | Not started | - |
 | 4. Parliament & Decisions | 0/TBD | Not started | - |
 | 5. Focus Tree | 0/TBD | Not started | - |

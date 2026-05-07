@@ -2,16 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: context exhaustion at 76% (2026-05-07)
-last_updated: "2026-05-07T20:30:35.685Z"
-last_activity: 2026-05-07 — Phase 1 Foundation complète, validée en jeu
+status: planning
+last_updated: "2026-05-07T21:00:00.000Z"
+last_activity: 2026-05-07 — Phase 2 planifiée — 2 plans, 2 waves (prête à exécuter)
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 3
+  total_plans: 5
   completed_plans: 3
-  percent: 100
+  percent: 50
 ---
 
 # Project State — The Final Hour
@@ -21,14 +20,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-07)
 
 **Core value:** Un mod HoI4 à la profondeur narrative de Road to 56 et au style cinématique de The Fire Rises — chaque focus raconte quelque chose, chaque choix a des conséquences réelles.
-**Current focus:** Phase 01 — foundation
+**Current focus:** Phase 02 — ideas-esprits-nationaux
 
 ## Current Position
 
-Phase: 01 (foundation) — EXECUTING
-Plan: 1 of 3
-Status: Executing Phase 01
-Last activity: 2026-05-07 — Phase 1 Foundation complète, validée en jeu
+Phase: 02 (ideas-esprits-nationaux) — READY TO EXECUTE
+Plan: 0 of 2
+Status: Phase 2 planifiée — 2 plans vérifiés, prêts à exécuter
+Last activity: 2026-05-07 — Phase 2 planifiée — 2 plans, 2 waves (prête à exécuter)
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -57,8 +56,8 @@ Progress: [░░░░░░░░░░] 0%
 
 | Phase | Name | Status | Notes |
 |-------|------|--------|-------|
-| 1 | Foundation | Pending | Shadow file, bookmark, GFX declarations |
-| 2 | Ideas & Esprits Nationaux | Pending | All FRA_ national spirits |
+| 1 | Foundation | Complete | Shadow file, bookmark, GFX declarations (2026-05-07) |
+| 2 | Ideas & Esprits Nationaux | Ready to execute | 2 plans — Wave 1: FRA_ideas.txt (11 esprits) · Wave 2: localisation YML |
 | 3 | Events & on_actions | Pending | fra.001, fra.INSP, fra.CONF + on_actions fix |
 | 4 | Parliament & Decisions | Pending | Assemblée Nationale, coalition decisions |
 | 5 | Focus Tree | Pending | All 4 branches, mutex audit, bypass blocks |
