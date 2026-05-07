@@ -1,0 +1,8 @@
+{
+  "[yaml]": {
+    "files.encoding": "utf8bom"
+  },
+  "files.associations": {
+    "*.yml": "yaml"
+  }
+}
