@@ -1,0 +1,22 @@
+# interface/fh_events.gfx
+# GFX declarations for The Final Hour event pictures (Phase 1)
+# Source : pattern vanilla interface/eventpictures.gfx
+
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_event_FRA_lheure_la_plus_sombre"
+    texturefile = "gfx/event_pictures/FRA_lheure_la_plus_sombre.dds"
+  }
+
+  spriteType = {
+    name = "GFX_event_FRA_inspection"
+    texturefile = "gfx/event_pictures/FRA_inspection.dds"
+  }
+
+  spriteType = {
+    name = "GFX_event_FRA_conference_paris"
+    texturefile = "gfx/event_pictures/FRA_conference_paris.dds"
+  }
+
+}

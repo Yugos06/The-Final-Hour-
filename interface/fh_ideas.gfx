@@ -1,0 +1,62 @@
+# interface/fh_ideas.gfx
+# GFX declarations for The Final Hour national spirits / ideas (Phase 1)
+# Source : pattern vanilla interface/ideas.gfx
+
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_idea_FRA_esprit_francais"
+    texturefile = "gfx/interface/ideas/FRA_esprit_francais.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_assemblee_nationale"
+    texturefile = "gfx/interface/ideas/FRA_assemblee_nationale.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_ve_republique_spirit"
+    texturefile = "gfx/interface/ideas/FRA_ve_republique_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_regime_dexception_spirit"
+    texturefile = "gfx/interface/ideas/FRA_regime_dexception_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_armee_de_terre_spirit"
+    texturefile = "gfx/interface/ideas/FRA_armee_de_terre_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_marine_spirit"
+    texturefile = "gfx/interface/ideas/FRA_marine_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_armee_air_spirit"
+    texturefile = "gfx/interface/ideas/FRA_armee_air_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_dissuasion_nucleaire_spirit"
+    texturefile = "gfx/interface/ideas/FRA_dissuasion_nucleaire_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_crise_energetique_spirit"
+    texturefile = "gfx/interface/ideas/FRA_crise_energetique_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_relance_nucleaire_spirit"
+    texturefile = "gfx/interface/ideas/FRA_relance_nucleaire_spirit.dds"
+  }
+
+  spriteType = {
+    name = "GFX_idea_FRA_economie_guerre_spirit"
+    texturefile = "gfx/interface/ideas/FRA_economie_guerre_spirit.dds"
+  }
+
+}
