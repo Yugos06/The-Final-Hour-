@@ -13,7 +13,7 @@ bookmarks = {
     }
 
     GER = {
-      history = "FH_2026_GER_DESC"
+      history = "FH_2026_GER_WIP_DESC"
       ideology = democratic
     }
   }
