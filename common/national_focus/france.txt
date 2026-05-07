@@ -1,0 +1,10 @@
+# common/national_focus/france.txt
+# Shadow file — efface l'arbre vanilla France (french_focus)
+# Ne PAS mettre de contenu ici : FRA_focus.txt porte notre arbre
+# Source : pattern vanilla Hearts of Iron IV/common/national_focus/france.txt
+
+focus_tree = {
+  id = french_focus
+  country = { factor = 0 }
+  default = no
+}
