@@ -1,6 +1,6 @@
 name="The Final Hour"
 version="0.1"
-supported_version="1.14.*"
+supported_version="1.18.*"
 tags={
   "Alternate History"
   "National Focuses"

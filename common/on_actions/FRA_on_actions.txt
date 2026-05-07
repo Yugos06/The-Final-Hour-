@@ -1,0 +1,11 @@
+# common/on_actions/FRA_on_actions.txt
+# Phase 1 skeleton — sera complété en Phase 3
+# Source : pattern vanilla on_actions.txt
+
+on_actions = {
+  on_startup = {
+    effect = {
+      # PHASE 3 : FRA = { add_ideas = FRA_esprit_francais }
+    }
+  }
+}

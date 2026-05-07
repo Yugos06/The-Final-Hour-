@@ -1,0 +1,20 @@
+# common/national_focus/FRA_focus.txt
+# Phase 1 skeleton — sera complété en Phase 5
+# Source : pattern vanilla france.txt + research Pattern 2
+
+focus_tree = {
+  id = FRA_focus_tree
+
+  country = {
+    factor = 0
+    modifier = {
+      add = 10
+      tag = FRA
+    }
+  }
+
+  default = no
+  reset_on_civilwar = yes
+
+  # PHASE 5 : ajouter le focus FRA_lheure_la_plus_sombre ici
+}

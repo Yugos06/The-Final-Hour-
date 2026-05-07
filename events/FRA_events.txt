@@ -1,0 +1,7 @@
+# events/FRA_events.txt
+# Phase 1 skeleton — sera complété en Phase 3
+# Source : pattern events/fh_france_events.txt
+
+add_namespace = fh_france
+
+# PHASE 3 : ajouter les events fh_france.001, fh_france.002, etc.
