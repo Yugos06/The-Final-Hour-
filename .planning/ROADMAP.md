@@ -12,7 +12,7 @@ From a clean slate, the mod is built layer by layer following the Clausewitz dep
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Shadow file, bookmark, VS Code config, and all GFX declarations wired to existing .dds assets
+- [x] **Phase 1: Foundation** - Shadow file, bookmark, VS Code config, and all GFX declarations wired to existing .dds assets (2026-05-07, human verification pending)
 - [ ] **Phase 2: Ideas & Esprits Nationaux** - All national spirits coded with correct FRA_ namespace and modifiers
 - [ ] **Phase 3: Events & on_actions** - Three narrative events and corrected on_actions trigger chain
 - [ ] **Phase 4: Parliament & Decisions** - Assemblée Nationale idea, path-exclusive coalition decisions, paralysis resolution
