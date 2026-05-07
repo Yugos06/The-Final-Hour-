@@ -1,0 +1,108 @@
+# interface/fh_goals.gfx
+# GFX declarations for The Final Hour focus tree icons (Phase 1)
+# Source : pattern vanilla interface/goals.gfx
+# Phase 5 utilisera ces sprites -- DO NOT remove without updating focus tree
+
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_focus_FRA_darkest_hour_europe"
+    texturefile = "gfx/interface/goals/FRA_darkest_hour_europe.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_la_republique_tient"
+    texturefile = "gfx/interface/goals/FRA_la_republique_tient.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_leffondrement"
+    texturefile = "gfx/interface/goals/FRA_leffondrement.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_etat_urgence"
+    texturefile = "gfx/interface/goals/FRA_etat_urgence.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_reforme_constitutionnelle"
+    texturefile = "gfx/interface/goals/FRA_reforme_constitutionnelle.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_balle_dentree"
+    texturefile = "gfx/interface/goals/FRA_balle_dentree.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_rearmement_urgence"
+    texturefile = "gfx/interface/goals/FRA_rearmement_urgence.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_revue_strategique_nationale"
+    texturefile = "gfx/interface/goals/FRA_revue_strategique_nationale.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_dissuasion_nucleaire"
+    texturefile = "gfx/interface/goals/FRA_dissuasion_nucleaire.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_doctrine_ia_militaire"
+    texturefile = "gfx/interface/goals/FRA_doctrine_ia_militaire.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_crise_energetique"
+    texturefile = "gfx/interface/goals/FRA_crise_energetique.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_inspection_nationale_territoire"
+    texturefile = "gfx/interface/goals/FRA_inspection_nationale_territoire.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_amenagements_regionaux"
+    texturefile = "gfx/interface/goals/FRA_amenagements_regionaux.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_relance_nucleaire_civil"
+    texturefile = "gfx/interface/goals/FRA_relance_nucleaire_civil.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_economie_de_guerre"
+    texturefile = "gfx/interface/goals/FRA_economie_de_guerre.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_sauver_leurope"
+    texturefile = "gfx/interface/goals/FRA_sauver_leurope.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_financer_union_europeenne"
+    texturefile = "gfx/interface/goals/FRA_financer_union_europeenne.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_conference_de_paris"
+    texturefile = "gfx/interface/goals/FRA_conference_de_paris.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_federation_europeenne"
+    texturefile = "gfx/interface/goals/FRA_federation_europeenne.dds"
+  }
+
+  spriteType = {
+    name = "GFX_focus_FRA_la_france_seule"
+    texturefile = "gfx/interface/goals/FRA_la_france_seule.dds"
+  }
+
+}
