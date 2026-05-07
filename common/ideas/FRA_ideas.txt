@@ -1,0 +1,9 @@
+# common/ideas/FRA_ideas.txt
+# Phase 1 skeleton — sera complété en Phase 2
+# Source : pattern vanilla ideas.txt
+
+ideas = {
+  country = {
+    # PHASE 2 : FRA_esprit_francais = { ... }
+  }
+}
