@@ -30,7 +30,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. The "January 2026" bookmark appears in the main menu and France is listed as a selectable nation with the correct starting flags
   3. VS Code encodes every `.yml` file as UTF-8 with BOM (verified by `hexdump` showing `ef bb bf` as first three bytes)
   4. The vanilla France focus tree is fully shadowed — no `FRA_the_maginot_line` or other vanilla IDs appear when the mod is active
-**Plans**: TBD
+**Plans**: 3 plans
+  - [ ] 01-01-PLAN.md — Squelettes scripts FRA_, shadow file vanilla, descriptor 1.18.*
+  - [ ] 01-02-PLAN.md — Bookmark 2026 (GER WIP), localisation FH_2026_GER_WIP_DESC, config VS Code utf8bom
+  - [ ] 01-03-PLAN.md — Déclarations GFX (focus/ideas/events) + assets DDS (placeholders ou réels)
 
 ### Phase 2: Ideas & Esprits Nationaux
 **Goal**: All France national spirits exist with correct FRA_ IDs, valid modifiers, and are assignable in-game — the political, military, economic, and EU spirits all apply their intended effects.
@@ -95,7 +98,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/3 | Not started | - |
 | 2. Ideas & Esprits Nationaux | 0/TBD | Not started | - |
 | 3. Events & on_actions | 0/TBD | Not started | - |
 | 4. Parliament & Decisions | 0/TBD | Not started | - |
