@@ -44,7 +44,9 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Military sub-branch spirits (`FRA_armee_de_terre_spirit`, `FRA_marine_spirit`, `FRA_armee_air_spirit`, `FRA_dissuasion_nucleaire_spirit`) each apply distinct modifiers without log errors
   3. Economic spirits (`FRA_crise_energetique_spirit`, `FRA_relance_nucleaire_spirit`, `FRA_economie_guerre_spirit`) are loadable and produce correct industry modifiers
   4. No idea in the file uses the old unprefixed ID pattern — every idea key begins with `FRA_`
-**Plans**: TBD
+**Plans**: 2 plans
+  - [ ] 02-01-PLAN.md — 11 esprits nationaux dans common/ideas/FRA_ideas.txt (politique + militaire + économique)
+  - [ ] 02-02-PLAN.md — Localisation FRA_ideas_l_french.yml + FRA_ideas_l_english.yml (22 clés, BOM UTF-8)
 
 ### Phase 3: Events & on_actions
 **Goal**: The three narrative events fire correctly when triggered via console, display their correct images, and the on_actions file uses startup/ruling-party-change triggers instead of the performance-killing on_daily pattern.
@@ -98,8 +100,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/3 | Not started | - |
-| 2. Ideas & Esprits Nationaux | 0/TBD | Not started | - |
+| 1. Foundation | 3/3 | Complete | 2026-05-07 |
+| 2. Ideas & Esprits Nationaux | 0/2 | Not started | - |
 | 3. Events & on_actions | 0/TBD | Not started | - |
 | 4. Parliament & Decisions | 0/TBD | Not started | - |
 | 5. Focus Tree | 0/TBD | Not started | - |
