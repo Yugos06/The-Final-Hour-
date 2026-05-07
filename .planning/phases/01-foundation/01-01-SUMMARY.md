@@ -157,6 +157,24 @@ Sans cette mise à jour, le launcher peut continuer à afficher l'avertissement 
 - Phase 5 (Focus Tree) peut compléter `common/national_focus/FRA_focus.txt` — squelette avec priorité FRA établie
 - Aucun bloqueur pour la suite
 
+## Self-Check: PASSED
+
+| Fichier | Statut |
+|---------|--------|
+| `common/national_focus/france.txt` | FOUND |
+| `common/national_focus/FRA_focus.txt` | FOUND |
+| `common/ideas/FRA_ideas.txt` | FOUND |
+| `common/on_actions/FRA_on_actions.txt` | FOUND |
+| `events/FRA_events.txt` | FOUND |
+| `.planning/phases/01-foundation/01-01-SUMMARY.md` | FOUND |
+
+| Commit | Message |
+|--------|---------|
+| `2f874a3` | chore(01-01): supprimer le code alpha fh_fra_ et cibler HoI4 1.18.* |
+| `5b304e3` | feat(01-01): créer shadow file france.txt et squelette FRA_focus_tree |
+| `e951885` | feat(01-01): créer squelettes FRA_ideas, FRA_on_actions et FRA_events |
+| `0157ad0` | docs(01-01): complete plan 01-01 (SUMMARY) |
+
 ---
 *Phase: 01-foundation*
 *Completed: 2026-05-07*
