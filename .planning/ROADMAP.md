@@ -31,9 +31,9 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. VS Code encodes every `.yml` file as UTF-8 with BOM (verified by `hexdump` showing `ef bb bf` as first three bytes)
   4. The vanilla France focus tree is fully shadowed — no `FRA_the_maginot_line` or other vanilla IDs appear when the mod is active
 **Plans**: 3 plans
-  - [ ] 01-01-PLAN.md — Squelettes scripts FRA_, shadow file vanilla, descriptor 1.18.*
-  - [ ] 01-02-PLAN.md — Bookmark 2026 (GER WIP), localisation FH_2026_GER_WIP_DESC, config VS Code utf8bom
-  - [ ] 01-03-PLAN.md — Déclarations GFX (focus/ideas/events) + assets DDS (placeholders ou réels)
+  - [x] 01-01-PLAN.md — Squelettes scripts FRA_, shadow file vanilla, descriptor 1.18.* (2026-05-07)
+  - [x] 01-02-PLAN.md — Bookmark 2026 (GER WIP), localisation FH_2026_GER_WIP_DESC, config VS Code utf8bom (2026-05-07)
+  - [x] 01-03-PLAN.md — Déclarations GFX (focus/ideas/events) + assets DDS (placeholders ou réels) (2026-05-07)
 
 ### Phase 2: Ideas & Esprits Nationaux
 **Goal**: All France national spirits exist with correct FRA_ IDs, valid modifiers, and are assignable in-game — the political, military, economic, and EU spirits all apply their intended effects.
